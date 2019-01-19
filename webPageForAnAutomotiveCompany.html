@@ -40,6 +40,11 @@ li a:hover:not(.active) {
 .active {
   background-color: #4CAF50;
 }
+
+footer.rad003 {
+
+	background-color = yellow;
+}
 </style>
 
 <script>
@@ -71,16 +76,21 @@ function radfs()
   <li><a href="https://www.entrepreneur.com/topic/auto-repair">News</a></li>
   <li><a  onclick=radfs()>Contact</a></li>
   <!-- <li><a href="#about">About</a></li> -->
+  
+  <li>
+	<form action="index-oo-format.php">
+		<input type="submit" value="click on me!">
+	</form>
+  </li>
+  
 </ul>
-
-<div style="padding:20px;margin-top:30px;background-color:#1abc9c;height:1500px;">
+		
+<div style="padding:20px;margin-top:30px;background-color:#1abc9c;height:1570px;">
   <h1 style="font-size: 400%;">A.N. Example - C.A. Repair Shop</h1>
   <h2 style="font-size: 150%;">Below are examples of "repair work" done</h2>
+   
   
-  
-  
-  
-  <body>
+<body>
 
 <h2 style="text-align:center">Slideshow Gallery</h2>
 
@@ -144,6 +154,12 @@ function radfs()
   </div>
 </div>
 
+ <footer style="background-color:#1abc9c;">
+  <p>Posted by: Roger De Four</p>
+  <p>Contact information: <a href="mailto:someone@example.com">rogerandrewdefour@gmail.com</a>.</p>
+</footer>
+ 
+ </div>
 <script>
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -174,15 +190,8 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
 </script>
-    
-
-  
-  
-  
-  <footer ">
-  <p>Posted by: Roger De Four</p>
-  <p>Contact information: <a href="mailto:someone@example.com">rogerandrewdefour@gmail.com</a>.</p>
-</footer>
+     
+ 
 </body>
 
 </html>
