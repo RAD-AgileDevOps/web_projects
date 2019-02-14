@@ -8,8 +8,8 @@
 
 <style>
 
-#JQ {
-	font-size : 175%;
+#JQ,JQ1,JQ2	 {
+	font-size : 200%;
 	color: black;
 	
 
@@ -30,7 +30,7 @@
 	float:left;
 	background-color:#cd7df2;
 	width: 380px;
-	height: 700px;
+	height: 6000px;
 	border-top : 20px solid #010026;
 	border-right : 8px solid #010026;
 	border-left : 20px solid #010026;
@@ -82,9 +82,14 @@
 		<h1>Topic Areas Covered - Self Study</h1>
 		<hr>
 		<ul class="ToC">
-			<li><a href=#>Success</a></li>
-			<li><a href=#>JQuery Training</a></li>
-			<li><a href=#>JQuery - Ajax mode</a></li>
+			<li><a href=#tag1>Success</a></li>
+			<li><a href=#JQ>JQuery Training</a></li>
+			<li><a href=#JQ1>JQuery - Ajax mode</a></li>
+			<li><a href=#JQ2>AJAX - Send a Request To a Server</a></li>
+			<li><a href=#tag2>Navigate Between the CDs</a></li>
+
+
+			
 			
 		</ul>
 	
@@ -97,7 +102,7 @@
 
 <p>I have save the files - website pages that I came across whilst researching how to place a button on a full screen image. </p>
 
-<h3><u><bold>Success</bold></u></h3>
+<h3 id=tag1><u><bold>Success</bold></u></h3>
 
 	<ul>
 
@@ -120,12 +125,66 @@
 	</ul>
 
 	<hr>
-	<h1 id="JQ">JQuery - Ajax mode</h1>
+	<h1 id="JQ1">JQuery - Ajax mode</h1>
+
 	<div class="sub_topix" style="width:100%; ">   <!--background-color:#C0EA8F ; -->
 	
 		<a href="https://www.w3schools.com/jquery/jquery_ajax_intro.asp">w3schools tutorial - AJAX</a>
-	<p>hello world 	 </p>
+	
 	</div>
+	
+	<hr>
+	<h1 id="JQ">14-02-2019</h1>
+	<u><b><h2 id="JQ2">AJAX - Send a Request To a Server</h2></b></u>
+	<p>06:43 </p>
+	<p>Started training with this section <a href="https://www.w3schools.com/js/js_ajax_http_send.asp">Ajax http</a></p> 
+	
+	<div><img src= "C:\RAD FINANCIAL SYSTEMS\Apache\htdocs\JavascriptSelfPacedTraining\AJAX TRAINING\AJAX - Send a Request To a Server.JPG" width = 500
+	height=400></div>
+	
+	<br>
+	
+	<u><b><h2>Response XML property</h2></b></u>
+	
+	<div><img src= "C:\RAD FINANCIAL SYSTEMS\Apache\htdocs\JavascriptSelfPacedTraining\AJAX TRAINING\responseXML PROPERTY.JPG" width = 500
+	height=400></div>
+	
+	<p>Will be moving onto XML & JSON </p>
+	<br><br>
+	
+	
+	<h3 id="tag2"><u>Navigate Between the CDs</u></h3>
+			<pre>
+			<code style="width:500;">
+						
+					function next() {
+					  // display the next CD, unless you are on the last CD
+					  if (i < len-1) {
+						i++;
+						displayCD(i);
+					  }
+					}
+
+					function previous() {
+					  // display the previous CD, unless you are on the first CD 
+					  if (i > 0) {
+						i--;
+						displayCD(i);
+					  }
+					}
+						
+			</code>
+		</pre>
+		
+		<br>
+		<u><h1 id="JQ">AJAX coupled with XML</h1></ul>
+		<p> The above excerpt is from XML and AJAX <a href="https://www.w3schools.com/js/js_ajax_applications.asp">XML/AJAX combination</a></p>
+		<br>
+		
+		<div>
+			<img src="C:\RAD FINANCIAL SYSTEMS\Apache\htdocs\JavascriptSelfPacedTraining\AJAX TRAINING\AJAX_XMAL combo.JPG" width = 500
+			height=400 >
+		</div>
 </div>
 </body>
 
